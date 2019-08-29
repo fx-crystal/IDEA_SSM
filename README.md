@@ -1,11 +1,11 @@
 # IDEA_SSM
-IDEA之ssm整合Maven多模块demo
+
+
+
+
+
 数据库：
 SET FOREIGN_KEY_CHECKS=0;
-
--- ----------------------------
--- Table structure for `goods`
--- ----------------------------
 DROP TABLE IF EXISTS `goods`;
 CREATE TABLE `goods` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
@@ -15,9 +15,6 @@ CREATE TABLE `goods` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=12 DEFAULT CHARSET=utf8;
 
--- ----------------------------
--- Records of goods
--- ----------------------------
 INSERT INTO `goods` VALUES ('1', 'G7 中原G7三合一浓醇咖啡固体饮料1200', '66.50', '1.jpg');
 INSERT INTO `goods` VALUES ('2', '百草味东北松子200gx2袋 坚果炒货零', '42.90', '2.jpg');
 INSERT INTO `goods` VALUES ('3', '奈津香 桂圆干500gx2袋莆田特产5A桂', '39.90', '3.jpg');
