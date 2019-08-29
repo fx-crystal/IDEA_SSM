@@ -1,5 +1,5 @@
 # IDEA_SSM
-
+IDEA使用SSM框架整个Maven多模块demo
 
 
 
